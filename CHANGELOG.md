@@ -1,5 +1,31 @@
 # Changelog
 
+## 1.0.0 (2025-02-19)
+
+
+### Features
+
+* add custom resolution support ([#7](https://github.com/blackeagle273/docker-web-recorder/issues/7)) ([f7938f4](https://github.com/blackeagle273/docker-web-recorder/commit/f7938f4661580ad34c7398b57a98541626b5cbde))
+* add rtmp output support ([#3](https://github.com/blackeagle273/docker-web-recorder/issues/3)) ([0872a12](https://github.com/blackeagle273/docker-web-recorder/commit/0872a122d4977ce46e5bf63440fd6be44d211334))
+* add support for emojis ([0f145fa](https://github.com/blackeagle273/docker-web-recorder/commit/0f145fa85cf3bb3d5c6e23035b8962f3afc9e9e4))
+* add support for Google Cloud Storage ([#17](https://github.com/blackeagle273/docker-web-recorder/issues/17)) ([ae8ee3a](https://github.com/blackeagle273/docker-web-recorder/commit/ae8ee3a999429af147210b320fc8ea7a0b92ba57))
+* ARM support & replace google chrome by chromium ([#1](https://github.com/blackeagle273/docker-web-recorder/issues/1)) ([269d5a0](https://github.com/blackeagle273/docker-web-recorder/commit/269d5a0243340ed1a13e5e42537a6c76edd71287))
+* flag to disable audio recording ([#104](https://github.com/blackeagle273/docker-web-recorder/issues/104)) ([3284f53](https://github.com/blackeagle273/docker-web-recorder/commit/3284f535326d454ff4508922984b8ae527586679))
+* support changing the x264 encoder tune ([#114](https://github.com/blackeagle273/docker-web-recorder/issues/114)) ([746d443](https://github.com/blackeagle273/docker-web-recorder/commit/746d443e3b287f2ec0ae9ffdf9ae7861e8c2b653))
+
+
+### Bug Fixes
+
+* correctly copy entrypoint ([01bccae](https://github.com/blackeagle273/docker-web-recorder/commit/01bccae31b889d3d8142bd2450dc55c95ebb5680))
+* **deps:** bump all dependencies ([#79](https://github.com/blackeagle273/docker-web-recorder/issues/79)) ([243ebc2](https://github.com/blackeagle273/docker-web-recorder/commit/243ebc2e26df71f55e344aa75463d145c927a91f))
+* **deps:** update dependency @google-cloud/storage to v6.11.0 ([#29](https://github.com/blackeagle273/docker-web-recorder/issues/29)) ([770687e](https://github.com/blackeagle273/docker-web-recorder/commit/770687e64c0af92e44fcc68ece71e0f17d2d7942))
+* **deps:** update dependency puppeteer-core to v20.3.0 ([#21](https://github.com/blackeagle273/docker-web-recorder/issues/21)) ([8051b45](https://github.com/blackeagle273/docker-web-recorder/commit/8051b4571e6162aaefe9be7fbc08eb81ff639e59))
+* **deps:** update dependency uuid to v9.0.1 ([#51](https://github.com/blackeagle273/docker-web-recorder/issues/51)) ([dadfc0e](https://github.com/blackeagle273/docker-web-recorder/commit/dadfc0efb13b4f4488cae8a98f6b70c71c472c30))
+* duration infinite by default ([b404397](https://github.com/blackeagle273/docker-web-recorder/commit/b404397322284c11c7d51e20406a1cd1e4da3d5c))
+* gracefully shutdown FFmpeg on signals ([#112](https://github.com/blackeagle273/docker-web-recorder/issues/112)) ([f7430eb](https://github.com/blackeagle273/docker-web-recorder/commit/f7430eb0b6fceb9f8c2a7b81e8d40c6bbf92b9ae))
+* revert to a working base image ([5f6927d](https://github.com/blackeagle273/docker-web-recorder/commit/5f6927d1417d7cb388e26257880b31c9a88e63d3))
+* use correct entrypoint to work on windows ([92e95af](https://github.com/blackeagle273/docker-web-recorder/commit/92e95aff44f83418ae757c2507c6b6c6b8556e4f))
+
 ## [1.3.0](https://github.com/digiz3d/docker-web-recorder/compare/v1.2.3...v1.3.0) (2025-02-16)
 
 
